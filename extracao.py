@@ -7,7 +7,7 @@ import time
 API_KEY = "fc4613361394fdd0c77c9a7c1cb4312bb8f410a4"
 URL_BASE = "http://redmine.prodeb.ba.gov.br/"
 PROJECT_ID = "projeto-fiplan" 
-START_DATE = "2025-03-28"  # Data mínima para extração
+START_DATE = "2025-05-01"  # Data mínima para extração
 
 # Configuração do caminho de saída
 OUTPUT_DIR = "EXTRACAO"
