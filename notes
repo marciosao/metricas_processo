@@ -1,0 +1,83 @@
+custom_fields_mapping = {
+   "FIPLAN:Gestor": [
+        {"id": 267, "name": "Classificação da Demanda"},
+        {"id": 334, "name": "Backlog"},
+        {"id": 225, "name": "Data Desejada"},
+        {"id": 252, "name": "Gestor"}
+    ],
+    "FIPLAN:Demanda": [
+        {"id": 368, "name": "Rastro FIPLAN"},
+        {"id": 340, "name": "FIPLAN 2.0"},
+        {"id": 149, "name": "Impacto BDCE"},
+        {"id": 334, "name": "Backlog"},
+        {"id": 221, "name": "PF Estimado"},
+        {"id": 333, "name": "Esforço"},
+        {"id": 345, "name": "Agrupamento da Demanda"},
+        {"id": 252, "name": "Gestor"},
+        {"id": 342, "name": "Data Entrega Homologação"},
+        {"id": 235, "name": "Data Prevista Implantação"}
+    ],
+    "FIPLAN:Adaptativa": [
+        {"id": 340, "name": "FIPLAN 2.0"},
+        {"id": 149, "name": "Impacto BDCE"},
+        {"id": 174, "name": "Complexidade da Demanda"},
+        {"id": 221, "name": "PF Estimado"},
+        {"id": 345, "name": "Agrupamento da Demanda"},
+        {"id": 252, "name": "Gestor"},
+        {"id": 271, "name": "Versão Caso de Uso"},
+        {"id": 237, "name": "Data Prevista Desenvolvimento"},
+        {"id": 238, "name": "Data Prevista Teste"}
+    ],
+    "FIPLAN:Evolutiva":  [
+        {"id": 340, "name": "FIPLAN 2.0", "value": ""}, 
+        {"id": 149, "name": "Impacto BDCE", "value": ""}, 
+        {"id": 174, "name": "Complexidade da Demanda", "value": ""}, 
+        {"id": 221, "name": "PF Estimado", "value": ""}, 
+        {"id": 345, "name": "Agrupamento da Demanda", "value": ""}, 
+        {"id": 252, "name": "Gestor", "value": ""}, 
+        {"id": 234, "name": "Projeto", "value": "0"}, 
+        {"id": 271, "name": "Versão Caso de Uso", "value": ""}, 
+        {"id": 237, "name": "Data Prevista Desenvolvimento", "value": ""}, 
+        {"id": 238, "name": "Data Prevista Teste", "value": ""}
+    ],
+    "FIPLAN:Corretiva": [
+        {"id": 28, "name": "Origem do Defeito"},
+        {"id": 340, "name": "FIPLAN 2.0"},
+        {"id": 174, "name": "Complexidade da Demanda"},
+        {"id": 334, "name": "Backlog"},
+        {"id": 221, "name": "PF Estimado"},
+        {"id": 252, "name": "Gestor"}
+    ],
+    "FIPLAN:Mudança": [
+        {"id": 340, "name": "FIPLAN 2.0"},
+        {"id": 174, "name": "Complexidade da Demanda"},
+        {"id": 221, "name": "PF Estimado"},
+        {"id": 345, "name": "Agrupamento da Demanda"},
+        {"id": 252, "name": "Gestor"},
+        {"id": 299, "name": "Origem Mudança"},
+        {"id": 271, "name": "Versão Caso de Uso"},
+        {"id": 237, "name": "Data Prevista Desenvolvimento"}
+    ],
+    "FIPLAN:Atividade": [
+        {"id": 371, "name": "Data de Entrega", "value": ""}
+    ],
+    "FIPLAN:Carga de Dados": [
+        {"id": 64, "name": "Ambiente", "value": ""}, 
+        {"id": 296, "name": "Justificativa", "value": ""}, 
+        {"id": 345, "name": "Agrupamento da Demanda", "value": ""}, 
+        {"id": 252, "name": "Gestor", "value": ""}
+    ],
+    "FIPLAN:Modelo de Dados": [
+        {"id": 149, "name": "Impacto BDCE", "value": ""}, 
+        {"id": 345, "name": "Agrupamento da Demanda", "value": ""}, 
+        {"id": 252, "name": "Gestor", "value": ""}
+    ],
+    "FIPLAN:Consulta":[
+        {"id": 252, "name": "Gestor", "value": ""}
+    ],
+    "FIPLAN:Erro":[
+        {"id": 340, "name": "FIPLAN 2.0", "value": ""}, 
+        {"id": 33, "name": "Legado", "value": ""}, 
+        {"id": 252, "name": "Gestor", "value": ""}
+    ]      
+}
