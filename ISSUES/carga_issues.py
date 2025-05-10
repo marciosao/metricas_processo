@@ -94,12 +94,12 @@ if df.empty:
 # 5. INSERIR DADOS NO MYSQL
 # =====================
 try:
+
     print("🧹 Limpando dados existentes da tabela 'issues'...")
     cursor = connection.cursor()
     cursor.execute("TRUNCATE TABLE issues")
     connection.commit()
     print("✅ Tabela 'issues' truncada com sucesso!")
-
 
     print("🔄 Inserindo dados na tabela 'issues'...")
     # cursor = connection.cursor()
