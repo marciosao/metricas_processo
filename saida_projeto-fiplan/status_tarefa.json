@@ -1,0 +1,958 @@
+[
+    {
+        "id":157,
+        "nome":"Demanda"
+    },
+    {
+        "id":158,
+        "nome":"Classificado"
+    },
+    {
+        "id":93,
+        "nome":"Backlog"
+    },
+    {
+        "id":168,
+        "nome":"An\u00e1lise"
+    },
+    {
+        "id":1,
+        "nome":"Novo"
+    },
+    {
+        "id":2,
+        "nome":"Aberto"
+    },
+    {
+        "id":4,
+        "nome":"Andamento"
+    },
+    {
+        "id":82,
+        "nome":"Parado"
+    },
+    {
+        "id":83,
+        "nome":"Elaborando Artefatos"
+    },
+    {
+        "id":10,
+        "nome":"Pendente"
+    },
+    {
+        "id":12,
+        "nome":"Em desenvolvimento"
+    },
+    {
+        "id":3,
+        "nome":"Resolvido"
+    },
+    {
+        "id":167,
+        "nome":"Modelagem: A fazer"
+    },
+    {
+        "id":176,
+        "nome":"Modelagem: Fazendo"
+    },
+    {
+        "id":177,
+        "nome":"Modelagem: Feito"
+    },
+    {
+        "id":166,
+        "nome":"Viabilidade T\u00e9cnica: A fazer"
+    },
+    {
+        "id":174,
+        "nome":"Viabilidade T\u00e9cnica: Fazendo"
+    },
+    {
+        "id":175,
+        "nome":"Viabilidade T\u00e9cnica: Feito"
+    },
+    {
+        "id":126,
+        "nome":"Executando Pr\u00e9-Especifica\u00e7\u00e3o"
+    },
+    {
+        "id":127,
+        "nome":"Validando Pr\u00e9-Especifica\u00e7\u00e3o"
+    },
+    {
+        "id":160,
+        "nome":"Revisando Verifica\u00e7\u00e3o - CGS"
+    },
+    {
+        "id":128,
+        "nome":"Aprova\u00e7\u00e3o"
+    },
+    {
+        "id":81,
+        "nome":"Aprovado"
+    },
+    {
+        "id":129,
+        "nome":"Execu\u00e7\u00e3o"
+    },
+    {
+        "id":28,
+        "nome":"Homologa\u00e7\u00e3o"
+    },
+    {
+        "id":56,
+        "nome":"Avaliar Produ\u00e7\u00e3o"
+    },
+    {
+        "id":41,
+        "nome":"Rejeitado"
+    },
+    {
+        "id":22,
+        "nome":"Aguardando Informacao"
+    },
+    {
+        "id":34,
+        "nome":"Aguardando Cliente"
+    },
+    {
+        "id":14,
+        "nome":"Em Teste"
+    },
+    {
+        "id":8,
+        "nome":"Suspenso"
+    },
+    {
+        "id":31,
+        "nome":"Corrigido"
+    },
+    {
+        "id":46,
+        "nome":"Rejeitado Requisitos"
+    },
+    {
+        "id":44,
+        "nome":"Reincidente Homologa\u00e7\u00e3o"
+    },
+    {
+        "id":62,
+        "nome":"Dispon\u00edvel para Merge"
+    },
+    {
+        "id":63,
+        "nome":"Teste de Desenvolvimento"
+    },
+    {
+        "id":32,
+        "nome":"Homologado"
+    },
+    {
+        "id":33,
+        "nome":"Entregue"
+    },
+    {
+        "id":84,
+        "nome":"Teste Requisitos"
+    },
+    {
+        "id":15,
+        "nome":"Verificado"
+    },
+    {
+        "id":38,
+        "nome":"Andamento Cliente"
+    },
+    {
+        "id":36,
+        "nome":"Resolvido Requisitos"
+    },
+    {
+        "id":37,
+        "nome":"Andamento Requisitos"
+    },
+    {
+        "id":40,
+        "nome":"Pendente Legado"
+    },
+    {
+        "id":39,
+        "nome":"Pendente Cliente"
+    },
+    {
+        "id":42,
+        "nome":"Disponivel para Teste"
+    },
+    {
+        "id":11,
+        "nome":"Reincidente"
+    },
+    {
+        "id":13,
+        "nome":"Desenvolvido"
+    },
+    {
+        "id":27,
+        "nome":"Reteste"
+    },
+    {
+        "id":47,
+        "nome":"Pendente Gest\u00e3o"
+    },
+    {
+        "id":52,
+        "nome":"Verificado para Manuten\u00e7\u00e3o"
+    },
+    {
+        "id":154,
+        "nome":"A fazer"
+    },
+    {
+        "id":155,
+        "nome":"Em andamento"
+    },
+    {
+        "id":30,
+        "nome":"Valida\u00e7\u00e3o"
+    },
+    {
+        "id":20,
+        "nome":"Validado"
+    },
+    {
+        "id":23,
+        "nome":"Validando Informa\u00e7\u00e3o"
+    },
+    {
+        "id":25,
+        "nome":"Reaberto"
+    },
+    {
+        "id":48,
+        "nome":"Rejeitado Gest\u00e3o"
+    },
+    {
+        "id":54,
+        "nome":"Rejeitado Processos"
+    },
+    {
+        "id":45,
+        "nome":"Avalia\u00e7\u00e3o"
+    },
+    {
+        "id":24,
+        "nome":"Feedback"
+    },
+    {
+        "id":9,
+        "nome":"Deploy"
+    },
+    {
+        "id":29,
+        "nome":"Entendimento da documenta\u00e7\u00e3o"
+    },
+    {
+        "id":57,
+        "nome":"Em An\u00e1lise CGS"
+    },
+    {
+        "id":58,
+        "nome":"Devolvido"
+    },
+    {
+        "id":18,
+        "nome":"Aguardando solu\u00e7\u00e3o GDS"
+    },
+    {
+        "id":19,
+        "nome":"Aguardando solu\u00e7\u00e3o GSI"
+    },
+    {
+        "id":17,
+        "nome":"Cancelado GSI"
+    },
+    {
+        "id":16,
+        "nome":"Cancelado GDS"
+    },
+    {
+        "id":60,
+        "nome":"Dispon\u00edvel para Produ\u00e7\u00e3o"
+    },
+    {
+        "id":61,
+        "nome":"Aguardando Desenvolvimento"
+    },
+    {
+        "id":64,
+        "nome":"Pr\u00e9-Homologa\u00e7\u00e3o"
+    },
+    {
+        "id":85,
+        "nome":"Pr\u00e9-Homologando"
+    },
+    {
+        "id":43,
+        "nome":"Disponivel Homologacao"
+    },
+    {
+        "id":53,
+        "nome":"Dispon\u00edvel Manuten\u00e7\u00e3o Req."
+    },
+    {
+        "id":51,
+        "nome":"Dispon\u00edvel Manuten\u00e7\u00e3o"
+    },
+    {
+        "id":65,
+        "nome":"Teste Integrado"
+    },
+    {
+        "id":55,
+        "nome":"Planejado"
+    },
+    {
+        "id":66,
+        "nome":"Designado"
+    },
+    {
+        "id":67,
+        "nome":"Rejeitado Teste Integrado"
+    },
+    {
+        "id":68,
+        "nome":"Rejeitado Homologa\u00e7\u00e3o"
+    },
+    {
+        "id":69,
+        "nome":"Aguardando Informa\u00e7\u00e3o Gest\u00e3o"
+    },
+    {
+        "id":70,
+        "nome":"A Fazer"
+    },
+    {
+        "id":71,
+        "nome":"Fazendo"
+    },
+    {
+        "id":72,
+        "nome":"Homologando"
+    },
+    {
+        "id":231,
+        "nome":"Revis\u00e3o"
+    },
+    {
+        "id":73,
+        "nome":"Feito"
+    },
+    {
+        "id":74,
+        "nome":"Impedimento"
+    },
+    {
+        "id":75,
+        "nome":"Ajustes de Homologa\u00e7\u00e3o"
+    },
+    {
+        "id":76,
+        "nome":"Andamento - VAL"
+    },
+    {
+        "id":77,
+        "nome":"Rejeitado - VAL"
+    },
+    {
+        "id":78,
+        "nome":"Aberto - HML"
+    },
+    {
+        "id":79,
+        "nome":"Aguardando Informa\u00e7\u00e3o - HML"
+    },
+    {
+        "id":80,
+        "nome":"Rejeitado - PRD"
+    },
+    {
+        "id":49,
+        "nome":"Verificado Para Produ\u00e7\u00e3o"
+    },
+    {
+        "id":94,
+        "nome":"Identificado"
+    },
+    {
+        "id":95,
+        "nome":"Tratado"
+    },
+    {
+        "id":96,
+        "nome":"Problema"
+    },
+    {
+        "id":97,
+        "nome":"Registrado"
+    },
+    {
+        "id":110,
+        "nome":"SD:Cancelado"
+    },
+    {
+        "id":192,
+        "nome":"Demanda: Ideias"
+    },
+    {
+        "id":193,
+        "nome":"Demanda: Solicita\u00e7\u00e3o"
+    },
+    {
+        "id":194,
+        "nome":"Demanda: Pr\u00e9-Especifica\u00e7\u00e3o"
+    },
+    {
+        "id":195,
+        "nome":"Demanda: Aprovado"
+    },
+    {
+        "id":120,
+        "nome":"Backlog: Novo"
+    },
+    {
+        "id":119,
+        "nome":"Backlog: Aberto"
+    },
+    {
+        "id":147,
+        "nome":"Backlog: A fazer"
+    },
+    {
+        "id":148,
+        "nome":"Backlog: Em andamento"
+    },
+    {
+        "id":162,
+        "nome":"Backlog: Valida\u00e7\u00e3o"
+    },
+    {
+        "id":159,
+        "nome":"Prepara\u00e7\u00e3o: A Fazer"
+    },
+    {
+        "id":86,
+        "nome":"Prepara\u00e7\u00e3o: Fazendo"
+    },
+    {
+        "id":121,
+        "nome":"Prepara\u00e7\u00e3o: Aguardando Revis\u00e3o"
+    },
+    {
+        "id":87,
+        "nome":"Prepara\u00e7\u00e3o: Feito"
+    },
+    {
+        "id":199,
+        "nome":"Especifica\u00e7\u00e3o: A fazer"
+    },
+    {
+        "id":200,
+        "nome":"Especifica\u00e7\u00e3o: Em andamento"
+    },
+    {
+        "id":88,
+        "nome":"Desenvolvimento: A Fazer"
+    },
+    {
+        "id":156,
+        "nome":"Desenvolvimento: A fazer"
+    },
+    {
+        "id":114,
+        "nome":"Desenvolvimento: Em andamento"
+    },
+    {
+        "id":89,
+        "nome":"Desenvolvimento: Fazendo"
+    },
+    {
+        "id":247,
+        "nome":"Qualidade: Code Review A Fazer"
+    },
+    {
+        "id":265,
+        "nome":"Qualidade: Code Review Fazendo"
+    },
+    {
+        "id":248,
+        "nome":"Qualidade: Teste A Fazer"
+    },
+    {
+        "id":266,
+        "nome":"Qualidade: Teste Fazendo"
+    },
+    {
+        "id":115,
+        "nome":"Desenvolvimento: Resolvido"
+    },
+    {
+        "id":163,
+        "nome":"Desenvolvimento: Valida\u00e7\u00e3o"
+    },
+    {
+        "id":90,
+        "nome":"Desenvolvimento: Feito"
+    },
+    {
+        "id":149,
+        "nome":"Teste: A fazer"
+    },
+    {
+        "id":150,
+        "nome":"Teste: Em andamento"
+    },
+    {
+        "id":164,
+        "nome":"Teste: Valida\u00e7\u00e3o"
+    },
+    {
+        "id":122,
+        "nome":"Valida\u00e7\u00e3o: Fazendo"
+    },
+    {
+        "id":123,
+        "nome":"Valida\u00e7\u00e3o: Feito"
+    },
+    {
+        "id":196,
+        "nome":"Pr\u00e9-HML: Pendente"
+    },
+    {
+        "id":131,
+        "nome":"Pr\u00e9-HML: A Fazer"
+    },
+    {
+        "id":197,
+        "nome":"Pr\u00e9-HML: A fazer"
+    },
+    {
+        "id":198,
+        "nome":"Pr\u00e9-HML: Em andamento"
+    },
+    {
+        "id":132,
+        "nome":"Pr\u00e9-HML: Fazendo"
+    },
+    {
+        "id":133,
+        "nome":"Pr\u00e9-HML: Feito"
+    },
+    {
+        "id":124,
+        "nome":"Implanta\u00e7\u00e3o: Liberado no GIT"
+    },
+    {
+        "id":125,
+        "nome":"Implanta\u00e7\u00e3o: Feito"
+    },
+    {
+        "id":170,
+        "nome":"Homologa\u00e7\u00e3o: Pendente"
+    },
+    {
+        "id":142,
+        "nome":"Homologa\u00e7\u00e3o: A Fazer"
+    },
+    {
+        "id":116,
+        "nome":"Homologa\u00e7\u00e3o: Em andamento"
+    },
+    {
+        "id":91,
+        "nome":"Homologa\u00e7\u00e3o: Fazendo"
+    },
+    {
+        "id":152,
+        "nome":"Homologa\u00e7\u00e3o: Validando"
+    },
+    {
+        "id":201,
+        "nome":"Homologa\u00e7\u00e3o: HCPA"
+    },
+    {
+        "id":117,
+        "nome":"Homologa\u00e7\u00e3o: Validado"
+    },
+    {
+        "id":171,
+        "nome":"Homologa\u00e7\u00e3o: Valida\u00e7\u00e3o"
+    },
+    {
+        "id":92,
+        "nome":"Homologa\u00e7\u00e3o: Feito"
+    },
+    {
+        "id":153,
+        "nome":"Pr\u00e9-Produ\u00e7\u00e3o: Pendente"
+    },
+    {
+        "id":144,
+        "nome":"Pr\u00e9-Produ\u00e7\u00e3o: A fazer "
+    },
+    {
+        "id":145,
+        "nome":"Pr\u00e9-Produ\u00e7\u00e3o: Em andamento"
+    },
+    {
+        "id":165,
+        "nome":"Pr\u00e9-Produ\u00e7\u00e3o: Valida\u00e7\u00e3o"
+    },
+    {
+        "id":146,
+        "nome":"Pr\u00e9-Produ\u00e7\u00e3o: Pronto"
+    },
+    {
+        "id":118,
+        "nome":"Produ\u00e7\u00e3o: Avaliar Produ\u00e7\u00e3o"
+    },
+    {
+        "id":50,
+        "nome":"Produ\u00e7\u00e3o"
+    },
+    {
+        "id":6,
+        "nome":"Cancelado"
+    },
+    {
+        "id":130,
+        "nome":"Garantia"
+    },
+    {
+        "id":5,
+        "nome":"Fechado"
+    },
+    {
+        "id":134,
+        "nome":"Em Pauta"
+    },
+    {
+        "id":135,
+        "nome":"Implementa\u00e7\u00e3o: A fazer"
+    },
+    {
+        "id":136,
+        "nome":"Implementa\u00e7\u00e3o: Fazendo"
+    },
+    {
+        "id":137,
+        "nome":"Implementa\u00e7\u00e3o: Feito"
+    },
+    {
+        "id":138,
+        "nome":"Homologado Comit\u00ea"
+    },
+    {
+        "id":139,
+        "nome":"Rejeitado Comit\u00ea"
+    },
+    {
+        "id":169,
+        "nome":"Prepara\u00e7\u00e3o: Aprovado"
+    },
+    {
+        "id":172,
+        "nome":"Monitorado"
+    },
+    {
+        "id":173,
+        "nome":"Ocorrido"
+    },
+    {
+        "id":178,
+        "nome":"Direcionamento"
+    },
+    {
+        "id":179,
+        "nome":"GRA: Backlog Oport. Negocio"
+    },
+    {
+        "id":180,
+        "nome":"GRA: Execu\u00e7\u00e3o Oport. Negocio"
+    },
+    {
+        "id":181,
+        "nome":"COMITE: Aprov. Oport. Negocio"
+    },
+    {
+        "id":182,
+        "nome":"GSC: Direcionamento Coord."
+    },
+    {
+        "id":183,
+        "nome":"GSC: Backlog Pr\u00e9-Venda"
+    },
+    {
+        "id":184,
+        "nome":"GSC: Execu\u00e7\u00e3o Pr\u00e9-Venda"
+    },
+    {
+        "id":185,
+        "nome":"GSC: Revis\u00e3o Pr\u00e9-Venda"
+    },
+    {
+        "id":186,
+        "nome":"COMITE: Aprova\u00e7\u00e3o Execu\u00e7\u00e3o"
+    },
+    {
+        "id":187,
+        "nome":"GSC: Direcionamento Time"
+    },
+    {
+        "id":188,
+        "nome":"GSC: Execu\u00e7\u00e3o Projeto"
+    },
+    {
+        "id":189,
+        "nome":"GSC: Homologa\u00e7\u00e3o Projeto"
+    },
+    {
+        "id":190,
+        "nome":"GSC: Garantia Projeto"
+    },
+    {
+        "id":202,
+        "nome":"Hip\u00f3tese:Backlog"
+    },
+    {
+        "id":203,
+        "nome":"Hip\u00f3tese:An\u00e1lise:PM Analisando"
+    },
+    {
+        "id":204,
+        "nome":"Hip\u00f3tese:An\u00e1lise:Aguard.DEV"
+    },
+    {
+        "id":205,
+        "nome":"Hip\u00f3tese:An\u00e1lise:DEV Avaliando"
+    },
+    {
+        "id":206,
+        "nome":"Hip\u00f3tese:An\u00e1lise:Vi\u00e1vel"
+    },
+    {
+        "id":220,
+        "nome":"Hip\u00f3tese:An\u00e1lise:Descartada"
+    },
+    {
+        "id":207,
+        "nome":"Demandas:Requisitos:Fazendo"
+    },
+    {
+        "id":208,
+        "nome":"Demandas:Requisitos:Aprova\u00e7\u00e3o"
+    },
+    {
+        "id":209,
+        "nome":"Demandas:Requisitos:Aprovado"
+    },
+    {
+        "id":210,
+        "nome":"Demandas:Desenv.:A Fazer"
+    },
+    {
+        "id":211,
+        "nome":"Demandas:Desenv.:Fazendo"
+    },
+    {
+        "id":212,
+        "nome":"Demandas:Desenv.:Feito"
+    },
+    {
+        "id":213,
+        "nome":"Demandas:Pre-HML:A Fazer"
+    },
+    {
+        "id":214,
+        "nome":"Demandas:Pre-HML:Fazendo"
+    },
+    {
+        "id":215,
+        "nome":"Demandas:Pre-HML:Feito"
+    },
+    {
+        "id":216,
+        "nome":"Demandas:Homologa\u00e7\u00e3o:A Fazer"
+    },
+    {
+        "id":217,
+        "nome":"Demandas:Homologa\u00e7\u00e3o:Fazendo"
+    },
+    {
+        "id":218,
+        "nome":"Demandas:Homologa\u00e7\u00e3o:Feito"
+    },
+    {
+        "id":219,
+        "nome":"Demandas:Entregue"
+    },
+    {
+        "id":230,
+        "nome":"GSF: Proposta Comercial aceita"
+    },
+    {
+        "id":222,
+        "nome":"GSF: Tr\u00e2mites Edital \/ O.S"
+    },
+    {
+        "id":227,
+        "nome":"GSF: Aguardando Fornecedor"
+    },
+    {
+        "id":223,
+        "nome":"GSF: Em desenvolvimento"
+    },
+    {
+        "id":224,
+        "nome":"GSF: Homologando"
+    },
+    {
+        "id":225,
+        "nome":"GSF: Produ\u00e7\u00e3o"
+    },
+    {
+        "id":226,
+        "nome":"GSF: Garantia"
+    },
+    {
+        "id":191,
+        "nome":"GSF: Fechado"
+    },
+    {
+        "id":229,
+        "nome":"GSF: Cancelado"
+    },
+    {
+        "id":236,
+        "nome":"BA Governan\u00e7a: Backlog"
+    },
+    {
+        "id":232,
+        "nome":"BA Governan\u00e7a: A Fazer"
+    },
+    {
+        "id":233,
+        "nome":"BA Governan\u00e7a: Fazendo"
+    },
+    {
+        "id":234,
+        "nome":"BA Governan\u00e7a: Em Aprova\u00e7\u00e3o"
+    },
+    {
+        "id":235,
+        "nome":"BA Governan\u00e7a: Produ\u00e7\u00e3o"
+    },
+    {
+        "id":237,
+        "nome":"BA Governan\u00e7a: Cancelado"
+    },
+    {
+        "id":238,
+        "nome":"Pr\u00e9-Venda: Novo"
+    },
+    {
+        "id":239,
+        "nome":"Pr\u00e9-Venda: Solicita\u00e7\u00e3o"
+    },
+    {
+        "id":240,
+        "nome":"Projeto: An\u00e1lise de Requisitos"
+    },
+    {
+        "id":264,
+        "nome":"Projeto: Levantamento"
+    },
+    {
+        "id":241,
+        "nome":"Projeto: Desenho"
+    },
+    {
+        "id":242,
+        "nome":"Projeto: Or\u00e7amento"
+    },
+    {
+        "id":243,
+        "nome":"Projeto: Precifica\u00e7\u00e3o"
+    },
+    {
+        "id":244,
+        "nome":"Projeto: Parametriza\u00e7\u00e3o"
+    },
+    {
+        "id":245,
+        "nome":"Projeto: Deploy"
+    },
+    {
+        "id":246,
+        "nome":"Projeto: Valida\u00e7\u00e3o"
+    },
+    {
+        "id":249,
+        "nome":"Liberado"
+    },
+    {
+        "id":250,
+        "nome":"Preparado"
+    },
+    {
+        "id":251,
+        "nome":"BA: An\u00e1lise"
+    },
+    {
+        "id":252,
+        "nome":"BA: Preparado"
+    },
+    {
+        "id":253,
+        "nome":"BA: Liberado"
+    },
+    {
+        "id":254,
+        "nome":"BA Implementa\u00e7\u00e3o: Fazendo"
+    },
+    {
+        "id":255,
+        "nome":"BA Implementa\u00e7\u00e3o: Feito"
+    },
+    {
+        "id":256,
+        "nome":"BA Pr\u00e9-HML: A Fazer"
+    },
+    {
+        "id":257,
+        "nome":"BA Pr\u00e9-HML: Fazendo"
+    },
+    {
+        "id":258,
+        "nome":"BA Pr\u00e9-HML: Feito"
+    },
+    {
+        "id":259,
+        "nome":"BA HML: A Fazer"
+    },
+    {
+        "id":260,
+        "nome":"BA HML: Fazendo"
+    },
+    {
+        "id":261,
+        "nome":"BA HML: Feito"
+    },
+    {
+        "id":262,
+        "nome":"BA: Produ\u00e7\u00e3o"
+    },
+    {
+        "id":263,
+        "nome":"BA: Cancelado"
+    }
+]

@@ -10,7 +10,8 @@ PROJECT_ID = "projeto-fiplan"
 START_DATE = "2025-05-01"  # Data mínima para extração
 
 # Configuração do caminho de saída
-OUTPUT_DIR = "EXTRACAO"
+# OUTPUT_DIR = "EXTRACAO"
+OUTPUT_DIR = "DADOS/1-EXTRACAO"
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "EXTRACAO_ISSUES.csv")
 
 # Cabeçalhos da requisição

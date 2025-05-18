@@ -1,0 +1,129 @@
+id,nome
+3,Gerente
+4,Analista Desenvolvimento
+5,Informante
+10,Testador
+11,Analista de Requisitos
+12,Líder 
+13,Analista de Teste
+14,Analista de Infra-estrutura
+15,Arquiteto
+17,POLITEC_GESTAO
+18,POLITEC_TESTADOR_ERRO_INTERNO
+19,POLITEC_DESENVOLVEDOR
+20,Gestão Técnica
+21,POLITEC_TESTADOR_POS_ENTREGA
+22,POLITEC_GESTAO_POS_ENTREGA
+25,FIPLAN_WIKI
+26,Administrador de Dados
+27,Analista de Processos
+28,Gerencia Configuração
+34,Solicitante
+30,AR (TEMP_FIPLAN)
+33,Gestão SAEB
+37,Colaborador
+31,Observador
+36,Cliente
+6,Desenvolvedor GDS
+39,Líder do Projeto
+40,Líder Técnico
+41,Equipe Técnica
+24,Responsável Desvio
+42,Analista Qualidade
+43,Analista de Negócios
+44,Capacitador
+45,Analista FSW
+46,Desenvolvedor
+47,Gestão Privado
+50,Membro do Time Desbravadores
+51,Desenvolvedor - DEV (PRO)
+53,Agile Master - AM (PRO)
+57,Agile Master - AM (SUS)
+56,Product Owner - PO (SUS)
+52,Product Owner - PO (PRO)
+54,Analista de Qualidade - CGS
+55,Gestor de Demanda - Projetos
+58,Gestor de Demanda - GD
+59,Desenvolvedor - DEV (SUS)
+62,Gerente de Configuração
+63,Coordenador
+64,Membro Comitê Sustentação
+65,Gestor SEMA - GS
+66,Gestor FIPLAN
+67,CSOL1: PO (PRO)
+68,CSOL1: Dev  (PRO)
+81,CSOL1: TL (PRO e SUS)
+115,CSOL1: PM
+116,CSOL1: GD
+117,CSOL1: DEV
+69,CSOL1: Gestor Demanda  (PRO)
+70,CSOL1: AM  (PRO)
+71,Membro Comitê Ágil
+72,Suporte e Implantação
+73,Gestor Portifolio(Teste)
+77,CSOL3: PO
+82,CSOL3: AM
+78,CSOL3: DEV
+75,CSOL3: QA
+79,CSOL3: GD
+74,Observador TCE
+76,Gerente de Projeto
+84,Gestor Demandas SEFAZ
+83,Gestor SEFAZ
+80,bagovbr: Processos
+90,Analista de BI
+91,Integrador
+92,Analista de Processos SEFAZ
+93,Consultor de Negócios - CN
+94,GRA - Aprovador
+95,GRA - Direcionador
+96,Portifolio_Demandas_GRA
+97,Portifolio_Demandas_Comitê
+98,Portifolio_Demandas_GSC
+101,Analista BDCE
+112,CSOL4: PO (PRO)
+114,CSOL4: LT (PRO e SUS)
+126,CSOL4: Gestor de Demanda
+111,CSOL4: DEV (PRO)
+113,CSOL4: AM (PRO e SUS)
+124,CSOL4: FSW Gestor Demanda
+123,CSOL4: FSW CSOL4
+143,CSOL4: AM
+142,CSOL4: PO
+122,CSOL4: FSW Sudoeste
+125,CSOL4: FSW - Horizon
+130,GSF / CSOL4: GD MXM (SUS)
+129,GSF / CSOL4: Suporte MXM (SUS)
+127,CSOL4 DEV ETL (PRO)
+144,CSOL4: FSW - TTY
+89,GSF / CSOL3: Gestor Demanda
+109,GSF / CSOL3: Observador
+135,GSF / CSOL3: GD (Arquitetura)
+108,GSF / CSOL3: Coordenador
+107,GSF / CSOL3: LT (Arquitetura)
+100,GSF / CSOL3: PO (SUS) 
+106,GSF / CSOL3: AM
+99,GSF / CSOL3: DEV (SUS)
+86,GSF / CSOL3: PO (PRO)
+85,GSF / CSOL3: DEV (PRO)
+128,GSF / CSOL3: FSW Horizon
+118,GSF / CSOL3: FSW Sudoeste
+132,GSF / CSOL3: Gestor Técnico
+133,GSF / CSOL3: GD FSW
+149,GSF / CSOL3: Multisites FSW
+131,GSF / CSOL3: FSW Fornecedor
+119,GSF / CSOL3: FSW CSOL5 (SICAF)
+134,GSF / CSOL3: DEV (FSW)
+120,GSF / CSOL3: FSW GD (SICAF)
+121,GRIS
+136,Analista de Interface
+138,GSN: Analista de Portal
+139,GSN: Arquiteto
+140,GSN: Engenheiro
+141,COGID: Desenvolvedor
+60,ba.gov.br - Gestor
+61,BA: Gestor Demanda
+137,BA: Governança
+147,BA: Qualidade
+146,BA: Product Owner
+145,BA: Desenvolvedor

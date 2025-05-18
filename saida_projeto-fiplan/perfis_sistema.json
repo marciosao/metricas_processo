@@ -1,0 +1,514 @@
+[
+    {
+        "id":3,
+        "nome":"Gerente"
+    },
+    {
+        "id":4,
+        "nome":"Analista Desenvolvimento"
+    },
+    {
+        "id":5,
+        "nome":"Informante"
+    },
+    {
+        "id":10,
+        "nome":"Testador"
+    },
+    {
+        "id":11,
+        "nome":"Analista de Requisitos"
+    },
+    {
+        "id":12,
+        "nome":"L\u00edder "
+    },
+    {
+        "id":13,
+        "nome":"Analista de Teste"
+    },
+    {
+        "id":14,
+        "nome":"Analista de Infra-estrutura"
+    },
+    {
+        "id":15,
+        "nome":"Arquiteto"
+    },
+    {
+        "id":17,
+        "nome":"POLITEC_GESTAO"
+    },
+    {
+        "id":18,
+        "nome":"POLITEC_TESTADOR_ERRO_INTERNO"
+    },
+    {
+        "id":19,
+        "nome":"POLITEC_DESENVOLVEDOR"
+    },
+    {
+        "id":20,
+        "nome":"Gest\u00e3o T\u00e9cnica"
+    },
+    {
+        "id":21,
+        "nome":"POLITEC_TESTADOR_POS_ENTREGA"
+    },
+    {
+        "id":22,
+        "nome":"POLITEC_GESTAO_POS_ENTREGA"
+    },
+    {
+        "id":25,
+        "nome":"FIPLAN_WIKI"
+    },
+    {
+        "id":26,
+        "nome":"Administrador de Dados"
+    },
+    {
+        "id":27,
+        "nome":"Analista de Processos"
+    },
+    {
+        "id":28,
+        "nome":"Gerencia Configura\u00e7\u00e3o"
+    },
+    {
+        "id":34,
+        "nome":"Solicitante"
+    },
+    {
+        "id":30,
+        "nome":"AR (TEMP_FIPLAN)"
+    },
+    {
+        "id":33,
+        "nome":"Gest\u00e3o SAEB"
+    },
+    {
+        "id":37,
+        "nome":"Colaborador"
+    },
+    {
+        "id":31,
+        "nome":"Observador"
+    },
+    {
+        "id":36,
+        "nome":"Cliente"
+    },
+    {
+        "id":6,
+        "nome":"Desenvolvedor GDS"
+    },
+    {
+        "id":39,
+        "nome":"L\u00edder do Projeto"
+    },
+    {
+        "id":40,
+        "nome":"L\u00edder T\u00e9cnico"
+    },
+    {
+        "id":41,
+        "nome":"Equipe T\u00e9cnica"
+    },
+    {
+        "id":24,
+        "nome":"Respons\u00e1vel Desvio"
+    },
+    {
+        "id":42,
+        "nome":"Analista Qualidade"
+    },
+    {
+        "id":43,
+        "nome":"Analista de Neg\u00f3cios"
+    },
+    {
+        "id":44,
+        "nome":"Capacitador"
+    },
+    {
+        "id":45,
+        "nome":"Analista FSW"
+    },
+    {
+        "id":46,
+        "nome":"Desenvolvedor"
+    },
+    {
+        "id":47,
+        "nome":"Gest\u00e3o Privado"
+    },
+    {
+        "id":50,
+        "nome":"Membro do Time Desbravadores"
+    },
+    {
+        "id":51,
+        "nome":"Desenvolvedor - DEV (PRO)"
+    },
+    {
+        "id":53,
+        "nome":"Agile Master - AM (PRO)"
+    },
+    {
+        "id":57,
+        "nome":"Agile Master - AM (SUS)"
+    },
+    {
+        "id":56,
+        "nome":"Product Owner - PO (SUS)"
+    },
+    {
+        "id":52,
+        "nome":"Product Owner - PO (PRO)"
+    },
+    {
+        "id":54,
+        "nome":"Analista de Qualidade - CGS"
+    },
+    {
+        "id":55,
+        "nome":"Gestor de Demanda - Projetos"
+    },
+    {
+        "id":58,
+        "nome":"Gestor de Demanda - GD"
+    },
+    {
+        "id":59,
+        "nome":"Desenvolvedor - DEV (SUS)"
+    },
+    {
+        "id":62,
+        "nome":"Gerente de Configura\u00e7\u00e3o"
+    },
+    {
+        "id":63,
+        "nome":"Coordenador"
+    },
+    {
+        "id":64,
+        "nome":"Membro Comit\u00ea Sustenta\u00e7\u00e3o"
+    },
+    {
+        "id":65,
+        "nome":"Gestor SEMA - GS"
+    },
+    {
+        "id":66,
+        "nome":"Gestor FIPLAN"
+    },
+    {
+        "id":67,
+        "nome":"CSOL1: PO (PRO)"
+    },
+    {
+        "id":68,
+        "nome":"CSOL1: Dev  (PRO)"
+    },
+    {
+        "id":81,
+        "nome":"CSOL1: TL (PRO e SUS)"
+    },
+    {
+        "id":115,
+        "nome":"CSOL1: PM"
+    },
+    {
+        "id":116,
+        "nome":"CSOL1: GD"
+    },
+    {
+        "id":117,
+        "nome":"CSOL1: DEV"
+    },
+    {
+        "id":69,
+        "nome":"CSOL1: Gestor Demanda  (PRO)"
+    },
+    {
+        "id":70,
+        "nome":"CSOL1: AM  (PRO)"
+    },
+    {
+        "id":71,
+        "nome":"Membro Comit\u00ea \u00c1gil"
+    },
+    {
+        "id":72,
+        "nome":"Suporte e Implanta\u00e7\u00e3o"
+    },
+    {
+        "id":73,
+        "nome":"Gestor Portifolio(Teste)"
+    },
+    {
+        "id":77,
+        "nome":"CSOL3: PO"
+    },
+    {
+        "id":82,
+        "nome":"CSOL3: AM"
+    },
+    {
+        "id":78,
+        "nome":"CSOL3: DEV"
+    },
+    {
+        "id":75,
+        "nome":"CSOL3: QA"
+    },
+    {
+        "id":79,
+        "nome":"CSOL3: GD"
+    },
+    {
+        "id":74,
+        "nome":"Observador TCE"
+    },
+    {
+        "id":76,
+        "nome":"Gerente de Projeto"
+    },
+    {
+        "id":84,
+        "nome":"Gestor Demandas SEFAZ"
+    },
+    {
+        "id":83,
+        "nome":"Gestor SEFAZ"
+    },
+    {
+        "id":80,
+        "nome":"bagovbr: Processos"
+    },
+    {
+        "id":90,
+        "nome":"Analista de BI"
+    },
+    {
+        "id":91,
+        "nome":"Integrador"
+    },
+    {
+        "id":92,
+        "nome":"Analista de Processos SEFAZ"
+    },
+    {
+        "id":93,
+        "nome":"Consultor de Neg\u00f3cios - CN"
+    },
+    {
+        "id":94,
+        "nome":"GRA - Aprovador"
+    },
+    {
+        "id":95,
+        "nome":"GRA - Direcionador"
+    },
+    {
+        "id":96,
+        "nome":"Portifolio_Demandas_GRA"
+    },
+    {
+        "id":97,
+        "nome":"Portifolio_Demandas_Comit\u00ea"
+    },
+    {
+        "id":98,
+        "nome":"Portifolio_Demandas_GSC"
+    },
+    {
+        "id":101,
+        "nome":"Analista BDCE"
+    },
+    {
+        "id":112,
+        "nome":"CSOL4: PO (PRO)"
+    },
+    {
+        "id":114,
+        "nome":"CSOL4: LT (PRO e SUS)"
+    },
+    {
+        "id":126,
+        "nome":"CSOL4: Gestor de Demanda"
+    },
+    {
+        "id":111,
+        "nome":"CSOL4: DEV (PRO)"
+    },
+    {
+        "id":113,
+        "nome":"CSOL4: AM (PRO e SUS)"
+    },
+    {
+        "id":124,
+        "nome":"CSOL4: FSW Gestor Demanda"
+    },
+    {
+        "id":123,
+        "nome":"CSOL4: FSW CSOL4"
+    },
+    {
+        "id":143,
+        "nome":"CSOL4: AM"
+    },
+    {
+        "id":142,
+        "nome":"CSOL4: PO"
+    },
+    {
+        "id":122,
+        "nome":"CSOL4: FSW Sudoeste"
+    },
+    {
+        "id":125,
+        "nome":"CSOL4: FSW - Horizon"
+    },
+    {
+        "id":130,
+        "nome":"GSF \/ CSOL4: GD MXM (SUS)"
+    },
+    {
+        "id":129,
+        "nome":"GSF \/ CSOL4: Suporte MXM (SUS)"
+    },
+    {
+        "id":127,
+        "nome":"CSOL4 DEV ETL (PRO)"
+    },
+    {
+        "id":144,
+        "nome":"CSOL4: FSW - TTY"
+    },
+    {
+        "id":89,
+        "nome":"GSF \/ CSOL3: Gestor Demanda"
+    },
+    {
+        "id":109,
+        "nome":"GSF \/ CSOL3: Observador"
+    },
+    {
+        "id":135,
+        "nome":"GSF \/ CSOL3: GD (Arquitetura)"
+    },
+    {
+        "id":108,
+        "nome":"GSF \/ CSOL3: Coordenador"
+    },
+    {
+        "id":107,
+        "nome":"GSF \/ CSOL3: LT (Arquitetura)"
+    },
+    {
+        "id":100,
+        "nome":"GSF \/ CSOL3: PO (SUS) "
+    },
+    {
+        "id":106,
+        "nome":"GSF \/ CSOL3: AM"
+    },
+    {
+        "id":99,
+        "nome":"GSF \/ CSOL3: DEV (SUS)"
+    },
+    {
+        "id":86,
+        "nome":"GSF \/ CSOL3: PO (PRO)"
+    },
+    {
+        "id":85,
+        "nome":"GSF \/ CSOL3: DEV (PRO)"
+    },
+    {
+        "id":128,
+        "nome":"GSF \/ CSOL3: FSW Horizon"
+    },
+    {
+        "id":118,
+        "nome":"GSF \/ CSOL3: FSW Sudoeste"
+    },
+    {
+        "id":132,
+        "nome":"GSF \/ CSOL3: Gestor T\u00e9cnico"
+    },
+    {
+        "id":133,
+        "nome":"GSF \/ CSOL3: GD FSW"
+    },
+    {
+        "id":149,
+        "nome":"GSF \/ CSOL3: Multisites FSW"
+    },
+    {
+        "id":131,
+        "nome":"GSF \/ CSOL3: FSW Fornecedor"
+    },
+    {
+        "id":119,
+        "nome":"GSF \/ CSOL3: FSW CSOL5 (SICAF)"
+    },
+    {
+        "id":134,
+        "nome":"GSF \/ CSOL3: DEV (FSW)"
+    },
+    {
+        "id":120,
+        "nome":"GSF \/ CSOL3: FSW GD (SICAF)"
+    },
+    {
+        "id":121,
+        "nome":"GRIS"
+    },
+    {
+        "id":136,
+        "nome":"Analista de Interface"
+    },
+    {
+        "id":138,
+        "nome":"GSN: Analista de Portal"
+    },
+    {
+        "id":139,
+        "nome":"GSN: Arquiteto"
+    },
+    {
+        "id":140,
+        "nome":"GSN: Engenheiro"
+    },
+    {
+        "id":141,
+        "nome":"COGID: Desenvolvedor"
+    },
+    {
+        "id":60,
+        "nome":"ba.gov.br - Gestor"
+    },
+    {
+        "id":61,
+        "nome":"BA: Gestor Demanda"
+    },
+    {
+        "id":137,
+        "nome":"BA: Governan\u00e7a"
+    },
+    {
+        "id":147,
+        "nome":"BA: Qualidade"
+    },
+    {
+        "id":146,
+        "nome":"BA: Product Owner"
+    },
+    {
+        "id":145,
+        "nome":"BA: Desenvolvedor"
+    }
+]

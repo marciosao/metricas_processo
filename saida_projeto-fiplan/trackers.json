@@ -1,0 +1,78 @@
+[
+    {
+        "id":105,
+        "nome":"FIPLAN:Gestor"
+    },
+    {
+        "id":99,
+        "nome":"FIPLAN:Corretiva"
+    },
+    {
+        "id":133,
+        "nome":"FIPLAN:Demanda"
+    },
+    {
+        "id":96,
+        "nome":"FIPLAN:Evolutiva"
+    },
+    {
+        "id":93,
+        "nome":"FIPLAN:Adaptativa"
+    },
+    {
+        "id":101,
+        "nome":"FIPLAN:Mudan\u00e7a"
+    },
+    {
+        "id":121,
+        "nome":"FIPLAN:Atividade"
+    },
+    {
+        "id":152,
+        "nome":"FIPLAN:Experi\u00eancia do Usu\u00e1rio"
+    },
+    {
+        "id":98,
+        "nome":"FIPLAN:Erro"
+    },
+    {
+        "id":97,
+        "nome":"FIPLAN:Projeto"
+    },
+    {
+        "id":100,
+        "nome":"FIPLAN:Consulta"
+    },
+    {
+        "id":107,
+        "nome":"FIPLAN:Modelo de Dados"
+    },
+    {
+        "id":109,
+        "nome":"FIPLAN:Carga de Dados"
+    },
+    {
+        "id":110,
+        "nome":"FIPLAN:Corre\u00e7\u00e3o de Dados"
+    },
+    {
+        "id":108,
+        "nome":"FIPLAN:Pacote"
+    },
+    {
+        "id":41,
+        "nome":"FIPLAN:Padr\u00e3o"
+    },
+    {
+        "id":132,
+        "nome":"FIPLAN:BDCE"
+    },
+    {
+        "id":141,
+        "nome":"FIPLAN:Politicas"
+    },
+    {
+        "id":168,
+        "nome":"FIPLAN: D\u00e9bito T\u00e9cnico"
+    }
+]

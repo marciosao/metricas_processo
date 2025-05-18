@@ -1,0 +1,240 @@
+id,nome
+157,Demanda
+158,Classificado
+93,Backlog
+168,Análise
+1,Novo
+2,Aberto
+4,Andamento
+82,Parado
+83,Elaborando Artefatos
+10,Pendente
+12,Em desenvolvimento
+3,Resolvido
+167,Modelagem: A fazer
+176,Modelagem: Fazendo
+177,Modelagem: Feito
+166,Viabilidade Técnica: A fazer
+174,Viabilidade Técnica: Fazendo
+175,Viabilidade Técnica: Feito
+126,Executando Pré-Especificação
+127,Validando Pré-Especificação
+160,Revisando Verificação - CGS
+128,Aprovação
+81,Aprovado
+129,Execução
+28,Homologação
+56,Avaliar Produção
+41,Rejeitado
+22,Aguardando Informacao
+34,Aguardando Cliente
+14,Em Teste
+8,Suspenso
+31,Corrigido
+46,Rejeitado Requisitos
+44,Reincidente Homologação
+62,Disponível para Merge
+63,Teste de Desenvolvimento
+32,Homologado
+33,Entregue
+84,Teste Requisitos
+15,Verificado
+38,Andamento Cliente
+36,Resolvido Requisitos
+37,Andamento Requisitos
+40,Pendente Legado
+39,Pendente Cliente
+42,Disponivel para Teste
+11,Reincidente
+13,Desenvolvido
+27,Reteste
+47,Pendente Gestão
+52,Verificado para Manutenção
+154,A fazer
+155,Em andamento
+30,Validação
+20,Validado
+23,Validando Informação
+25,Reaberto
+48,Rejeitado Gestão
+54,Rejeitado Processos
+45,Avaliação
+24,Feedback
+9,Deploy
+29,Entendimento da documentação
+57,Em Análise CGS
+58,Devolvido
+18,Aguardando solução GDS
+19,Aguardando solução GSI
+17,Cancelado GSI
+16,Cancelado GDS
+60,Disponível para Produção
+61,Aguardando Desenvolvimento
+64,Pré-Homologação
+85,Pré-Homologando
+43,Disponivel Homologacao
+53,Disponível Manutenção Req.
+51,Disponível Manutenção
+65,Teste Integrado
+55,Planejado
+66,Designado
+67,Rejeitado Teste Integrado
+68,Rejeitado Homologação
+69,Aguardando Informação Gestão
+70,A Fazer
+71,Fazendo
+72,Homologando
+231,Revisão
+73,Feito
+74,Impedimento
+75,Ajustes de Homologação
+76,Andamento - VAL
+77,Rejeitado - VAL
+78,Aberto - HML
+79,Aguardando Informação - HML
+80,Rejeitado - PRD
+49,Verificado Para Produção
+94,Identificado
+95,Tratado
+96,Problema
+97,Registrado
+110,SD:Cancelado
+192,Demanda: Ideias
+193,Demanda: Solicitação
+194,Demanda: Pré-Especificação
+195,Demanda: Aprovado
+120,Backlog: Novo
+119,Backlog: Aberto
+147,Backlog: A fazer
+148,Backlog: Em andamento
+162,Backlog: Validação
+159,Preparação: A Fazer
+86,Preparação: Fazendo
+121,Preparação: Aguardando Revisão
+87,Preparação: Feito
+199,Especificação: A fazer
+200,Especificação: Em andamento
+88,Desenvolvimento: A Fazer
+156,Desenvolvimento: A fazer
+114,Desenvolvimento: Em andamento
+89,Desenvolvimento: Fazendo
+247,Qualidade: Code Review A Fazer
+265,Qualidade: Code Review Fazendo
+248,Qualidade: Teste A Fazer
+266,Qualidade: Teste Fazendo
+115,Desenvolvimento: Resolvido
+163,Desenvolvimento: Validação
+90,Desenvolvimento: Feito
+149,Teste: A fazer
+150,Teste: Em andamento
+164,Teste: Validação
+122,Validação: Fazendo
+123,Validação: Feito
+196,Pré-HML: Pendente
+131,Pré-HML: A Fazer
+197,Pré-HML: A fazer
+198,Pré-HML: Em andamento
+132,Pré-HML: Fazendo
+133,Pré-HML: Feito
+124,Implantação: Liberado no GIT
+125,Implantação: Feito
+170,Homologação: Pendente
+142,Homologação: A Fazer
+116,Homologação: Em andamento
+91,Homologação: Fazendo
+152,Homologação: Validando
+201,Homologação: HCPA
+117,Homologação: Validado
+171,Homologação: Validação
+92,Homologação: Feito
+153,Pré-Produção: Pendente
+144,Pré-Produção: A fazer 
+145,Pré-Produção: Em andamento
+165,Pré-Produção: Validação
+146,Pré-Produção: Pronto
+118,Produção: Avaliar Produção
+50,Produção
+6,Cancelado
+130,Garantia
+5,Fechado
+134,Em Pauta
+135,Implementação: A fazer
+136,Implementação: Fazendo
+137,Implementação: Feito
+138,Homologado Comitê
+139,Rejeitado Comitê
+169,Preparação: Aprovado
+172,Monitorado
+173,Ocorrido
+178,Direcionamento
+179,GRA: Backlog Oport. Negocio
+180,GRA: Execução Oport. Negocio
+181,COMITE: Aprov. Oport. Negocio
+182,GSC: Direcionamento Coord.
+183,GSC: Backlog Pré-Venda
+184,GSC: Execução Pré-Venda
+185,GSC: Revisão Pré-Venda
+186,COMITE: Aprovação Execução
+187,GSC: Direcionamento Time
+188,GSC: Execução Projeto
+189,GSC: Homologação Projeto
+190,GSC: Garantia Projeto
+202,Hipótese:Backlog
+203,Hipótese:Análise:PM Analisando
+204,Hipótese:Análise:Aguard.DEV
+205,Hipótese:Análise:DEV Avaliando
+206,Hipótese:Análise:Viável
+220,Hipótese:Análise:Descartada
+207,Demandas:Requisitos:Fazendo
+208,Demandas:Requisitos:Aprovação
+209,Demandas:Requisitos:Aprovado
+210,Demandas:Desenv.:A Fazer
+211,Demandas:Desenv.:Fazendo
+212,Demandas:Desenv.:Feito
+213,Demandas:Pre-HML:A Fazer
+214,Demandas:Pre-HML:Fazendo
+215,Demandas:Pre-HML:Feito
+216,Demandas:Homologação:A Fazer
+217,Demandas:Homologação:Fazendo
+218,Demandas:Homologação:Feito
+219,Demandas:Entregue
+230,GSF: Proposta Comercial aceita
+222,GSF: Trâmites Edital / O.S
+227,GSF: Aguardando Fornecedor
+223,GSF: Em desenvolvimento
+224,GSF: Homologando
+225,GSF: Produção
+226,GSF: Garantia
+191,GSF: Fechado
+229,GSF: Cancelado
+236,BA Governança: Backlog
+232,BA Governança: A Fazer
+233,BA Governança: Fazendo
+234,BA Governança: Em Aprovação
+235,BA Governança: Produção
+237,BA Governança: Cancelado
+238,Pré-Venda: Novo
+239,Pré-Venda: Solicitação
+240,Projeto: Análise de Requisitos
+264,Projeto: Levantamento
+241,Projeto: Desenho
+242,Projeto: Orçamento
+243,Projeto: Precificação
+244,Projeto: Parametrização
+245,Projeto: Deploy
+246,Projeto: Validação
+249,Liberado
+250,Preparado
+251,BA: Análise
+252,BA: Preparado
+253,BA: Liberado
+254,BA Implementação: Fazendo
+255,BA Implementação: Feito
+256,BA Pré-HML: A Fazer
+257,BA Pré-HML: Fazendo
+258,BA Pré-HML: Feito
+259,BA HML: A Fazer
+260,BA HML: Fazendo
+261,BA HML: Feito
+262,BA: Produção
+263,BA: Cancelado

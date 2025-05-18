@@ -101,8 +101,10 @@ def process_file(input_path, output_path):
     # print("Processo concluído. Arquivo salvo em:", output_file_json)
 
 # Caminhos de entrada e saída
-input_file = "./EXTRACAO/EXTRACAO_ISSUES.CSV"
-treatment_folder = "TRATAMENTO"
+# input_file = "./EXTRACAO/EXTRACAO_ISSUES.CSV"
+input_file = "./DADOS/1-EXTRACAO/EXTRACAO_ISSUES.CSV"
+# treatment_folder = "TRATAMENTO"
+treatment_folder = "./DADOS/2-TRATAMENTO"
 output_file = os.path.join(treatment_folder, "issue.CSV")
 # output_file_json = os.path.join(treatment_folder, "issue.json")
 

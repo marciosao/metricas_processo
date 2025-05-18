@@ -14,7 +14,8 @@ DB_HOST = "localhost"
 DB_USER = "root"
 DB_PASSWORD = "1234"
 DB_NAME = "bd_metricas"
-FILE_PATH = "./TRATAMENTO/issue.csv"
+# FILE_PATH = "./TRATAMENTO/issue.csv"
+FILE_PATH = "./DADOS/2-TRATAMENTO/issue.csv"
 
 # =====================
 # 2. CONECTAR AO MYSQL

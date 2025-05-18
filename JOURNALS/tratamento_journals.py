@@ -1,4 +1,6 @@
-# Objetivo: Ler, tratar e exportar dados de journals do Redmine, extraindo campos de "details" com tentativa de correção automática
+
+# Objetivo: Ler, tratar e exportar dados de journals do Redmine, expandindo campos de "details" corretamente
+# tratamento_journals_expandido
 
 import os
 import pandas as pd
@@ -14,7 +16,7 @@ def corrigir_json_malformado(texto):
         pass
     texto_corrigido = texto.strip()
     texto_corrigido = texto_corrigido.replace("'", '"')
-    texto_corrigido = texto_corrigido.replace("\\\\", "")
+    texto_corrigido = texto_corrigido.replace("\\", "")
     texto_corrigido = texto_corrigido.replace("\\", "")
     texto_corrigido = re.sub(r",\s*}", "}", texto_corrigido)
     texto_corrigido = re.sub(r",\s*]", "]", texto_corrigido)
@@ -37,38 +39,30 @@ def process_file(input_path, output_path):
         if col not in df.columns:
             df[col] = None
 
-    erros = []
-    for index, row in df.iterrows():
+    linhas_expandida = []
+
+    for _, row in df.iterrows():
         if pd.notna(row["details"]):
-            details_raw = row["details"].replace("'", '"').replace('\\\\', '').replace('\\', '')
+            details_raw = row["details"].replace("'", '"').replace('\\', '').replace('\\', '')
             try:
                 details_json = json.loads(details_raw)
-                if isinstance(details_json, list) and len(details_json) > 0:
-                    detail = details_json[0]
-                    df.at[index, "property"] = detail.get("property")
-                    df.at[index, "name"] = detail.get("name")
-                    df.at[index, "old_value"] = detail.get("old_value")
-                    df.at[index, "new_value"] = detail.get("new_value")
             except json.JSONDecodeError:
-                erros.append(index)
+                details_json = corrigir_json_malformado(row["details"])
 
-    # Tentativa de recuperação
-    recuperados = 0
-    for index in erros:
-        row = df.loc[index]
-        details_corrigido = corrigir_json_malformado(row["details"])
-        if isinstance(details_corrigido, list) and len(details_corrigido) > 0:
-            detail = details_corrigido[0]
-            df.at[index, "property"] = detail.get("property")
-            df.at[index, "name"] = detail.get("name")
-            df.at[index, "old_value"] = detail.get("old_value")
-            df.at[index, "new_value"] = detail.get("new_value")
-            recuperados += 1
+            if isinstance(details_json, list):
+                for detail in details_json:
+                    nova_linha = row.copy()
+                    nova_linha["property"] = detail.get("property")
+                    nova_linha["name"] = detail.get("name")
+                    nova_linha["old_value"] = detail.get("old_value")
+                    nova_linha["new_value"] = detail.get("new_value")
+                    linhas_expandida.append(nova_linha)
+            else:
+                linhas_expandida.append(row)
+        else:
+            linhas_expandida.append(row)
 
-    erros_restantes = []
-    for index in erros:
-        if not df.at[index, "property"]:
-            erros_restantes.append(index)
+    df = pd.DataFrame(linhas_expandida)
 
     if "created_on" in df.columns:
         df["created_on"] = pd.to_datetime(df["created_on"], errors='coerce', utc=True)
@@ -86,18 +80,14 @@ def process_file(input_path, output_path):
     df.to_csv(output_path, index=False, encoding='utf-8-sig')
     print(f"📁 Arquivo gerado com sucesso: {output_path} ({len(df)} registros)")
 
-    # Exibir resumo
-    print("\n✅ RESUMO FINAL DO PROCESSAMENTO")
-    print(f"Total de registros processados: {len(df)}")
-    print(f"Registros com erro inicial de parsing no campo 'details': {len(erros)}")
-    print(f"Registros recuperados automaticamente: {recuperados}")
-    print(f"Registros ainda com erro após tentativa de recuperação: {len(erros_restantes)}")
-    print("Índices com erro remanescente:", erros_restantes[:20] if erros_restantes else "Nenhum")
-
 # Caminhos de entrada e saída
-input_file = "./EXTRACAO/EXTRACAO_JOURNALS.CSV"
-treatment_folder = "TRATAMENTO"
-output_file = os.path.join(treatment_folder, "JOURNALS.CSV")
+# input_file = "./EXTRACAO/EXTRACAO_JOURNALS.CSV"
+# treatment_folder = "TRATAMENTO"
+# output_file = os.path.join(treatment_folder, "JOURNALS_EXPANDIDO.CSV")
+input_file = "./DADOS/1-EXTRACAO/EXTRACAO_JOURNALS.CSV"
+treatment_folder = "./DADOS/2-TRATAMENTO"
+output_file = os.path.join(treatment_folder, "JOURNALS_EXPANDIDO.CSV")
 
 # Executar
 process_file(input_file, output_file)
+

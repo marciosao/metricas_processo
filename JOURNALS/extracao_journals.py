@@ -8,7 +8,10 @@ from datetime import datetime
 
 
 # Configuração do caminho de saída
-OUTPUT_DIR = "EXTRACAO"
+# OUTPUT_DIR = "EXTRACAO"
+# OUTPUT_FILE = os.path.join(OUTPUT_DIR, "EXTRACAO_JOURNALS.csv")
+
+OUTPUT_DIR = "./DADOS/1-EXTRACAO"
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "EXTRACAO_JOURNALS.csv")
 
 # ==============================
